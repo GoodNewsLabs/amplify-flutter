@@ -17,34 +17,34 @@ abstract class AWSHeaders {
   const AWSHeaders._();
 
   /// The `Accept` header.
-  static const accept = 'Accept';
+  static const accept = 'accept';
 
   /// The `X-Amz-Algorithm` header.
-  static const algorithm = 'X-Amz-Algorithm';
+  static const algorithm = 'x-amz-algorithm';
 
   /// The `X-Amz-User-Agent` header.
-  static const amzUserAgent = 'X-Amz-User-Agent';
+  static const amzUserAgent = 'x-amz-user-agent';
 
   /// The `Authorization` header.
-  static const authorization = 'Authorization';
+  static const authorization = 'authorization';
 
   /// The `Content-Encoding` header.
-  static const contentEncoding = 'Content-Encoding';
+  static const contentEncoding = 'content-encoding';
 
   /// The `Content-Length` header.
-  static const contentLength = 'Content-Length';
+  static const contentLength = 'content-length';
 
   /// The `Content-Type` header.
-  static const contentType = 'Content-Type';
+  static const contentType = 'content-type';
 
   /// The `X-Amz-Content-Sha256` header.
-  static const contentSHA256 = 'X-Amz-Content-Sha256';
+  static const contentSHA256 = 'x-amz-content-sha256';
 
   /// The `X-Amz-Credential` header.
   static const credential = 'X-Amz-Credential';
 
   /// The `X-Amz-Date` header.
-  static const date = 'X-Amz-Date';
+  static const date = 'x-amz-date';
 
   /// The `X-Amz-Decoded-Content-Length` header.
   static const decodedContentLength = 'X-Amz-Decoded-Content-Length';
@@ -53,7 +53,7 @@ abstract class AWSHeaders {
   static const expires = 'X-Amz-Expires';
 
   /// The `Host` header.
-  static const host = 'Host';
+  static const host = 'host';
 
   /// The `Location` header.
   static const location = 'Location';
@@ -86,5 +86,5 @@ abstract class AWSHeaders {
   static const transferEncoding = 'Transfer-Encoding';
 
   /// The `User-Agent` header.
-  static const userAgent = 'User-Agent';
+  static const userAgent = 'user-agent';
 }
